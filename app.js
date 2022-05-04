@@ -8,7 +8,7 @@ app.get('/', function(req, res){
   res.status(301).send()
 
 }); 
-app.get('/destination', function(req, res){
+app.get('/destination2', function(req, res){
   res.sendFile(__dirname + '/public/finalpage.html');
 }); 
 
