@@ -17,6 +17,6 @@ app.get('/destination2', function(req, res){
   res.sendFile(__dirname + '/public/finalfinalpage.html');
 }); 
 
-app.listen(3000, function(){
+app.listen(process.env.PORT || 5000, function(){
   console.log("Listening on port 3000!")
 });
