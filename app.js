@@ -8,6 +8,7 @@ app.get('/', function(req, res){
   res.sendFile(__dirname + '/public/movedpage.html');
 /*   res.set('location', '/destination');
   res.status(301).send() */
+  
 }); 
 app.get('/destination', function(req, res){
   res.set('location', '/destination2');
